@@ -1,6 +1,6 @@
 [
     {
-        "title": "General",
+        "title": "Dashboard",
         "icon": "bi-gear-fill",
         "childrens": [
             {
@@ -38,20 +38,20 @@
         ]
     },
     {
-        "title": "Account",
+        "title": "Create",
         "icon": "bi-info-circle-fill",
         "childrens": [
             {
-                "title": "Login",
-                "path": "/login"
+                "title": "New expense",
+                "path": "/expense"
             },
             {
-                "title": "Register",
-                "path": "/register"
+                "title": "Extra-Income",
+                "path": "/extra-income"
             },
             {
-                "title": "Forgot Password",
-                "path": "/forgot-password"
+                "title": "Damaged-Product",
+                "path": "/damaged-good"
             },
             {
                 "title": "Reset Password",
@@ -60,12 +60,28 @@
         ]
     },
     {
-        "title": "Profile",
+        "title": "Category",
         "icon": "bi-person-fill",
         "childrens": [
             {
-                "title": "Profile",
-                "path": "/profile"
+                "title": "expense",
+                "path": "/expense"
+            },
+            {
+                "title": "extra-income",
+                "path": "/income-extra"
+            },
+            {
+                "title": "measurment",
+                "path": "/measurment"
+            },
+            {
+                "title": "Brand",
+                "path": "/brand"
+            },
+            {
+                "title": "Color",
+                "path": "/color"
             },
             {
                 "title": "Settings",

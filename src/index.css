@@ -17,6 +17,26 @@ body{
   display: flex;
   height: 100vh;
 }
+.btnsearch{
+  width:100px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  padding: .75em 1em;
+  font-size: 1em;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: rgb(134, 49, 0);
+  color: #fff;
+}
+.search{
+  width: 800px;
+  margin-top: 10px;
+  top: 2%;
+}
 
 
 .container{
